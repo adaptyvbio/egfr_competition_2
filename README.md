@@ -20,7 +20,7 @@ This repo contains the results data for Round 2 of [EGFR Protein Design Competit
 
 > [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/structure_predictions.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/structure_predictions.zip)
 
-🌐 Sequence embeddings from a variety of models (ESM C, ESM2, Saprot, Protek) for all submissions:
+🌐 Embeddings from a variety of models (ESM C, ESM2, Saprot, Protek) for all submissions:
 
 > [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/embeddings.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/embeddings.zip)
 
