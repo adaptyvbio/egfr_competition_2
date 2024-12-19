@@ -56,6 +56,28 @@ Proteins with less than 10 amino acid distance to a database entry were excluded
 
 The databases that we checked are SwisssProt, THPdb, USPTO, sequences from the first round of the competition and binders designed by [Cao et al. (2022)](https://www.nature.com/articles/s41586-022-04654-9). The scripts can be found in the [first round data package repo](https://github.com/adaptyvbio/egfr_competition_1/tree/main).
 
+### FoldSeek Shape Similarity
+
+We checked every design against SwissProt and PDB databases using TM-score in [FoldSeek](https://search.foldseek.com) by the [Steinegger Lab](https://steineggerlab.com/en/). We calculated several metrics, of which:
+
+• **evalue**:  The E-value, representing the number of expected alignments with a score as good as or better than the one observed by chance. Lower values indicate more significant alignments.
+
+• **alntmscore**: TM-score of the alignment, which measures structural similarity on a scale from 0 to 1 (1 being identical structures).
+
+• **lddt**: Local Distance Difference Test (LDDT) score for the aligned region, indicating alignment quality. Ranges from 0 to 1, with 1 indicating perfect alignment.
+
+• **prob**: The probability of the alignment being correct or meaningful.
+
+Full details with bash scripts and additional files can be found [here](https://github.com/wells-wood-research/adaptyv-bio-analysis/tree/main/data/foldseek).
+
+### DE-STRESS Physicochemical Properties
+
+[DE-STRESS](https://pragmaticproteindesign.bio.ed.ac.uk/de-stress/) is a tool from the [Wells Wood Research Group](https://www.wellswoodresearchgroup.com) that evaluates structural models of designed and engineered proteins. The program calculates roughly 70 physicochemical properties using a variety of software tools, including all-atom scoring functions (such as Rosetta, EvoEF2, BUDE), measures of geometric packing density and hydrogen bonding quality, aggregation propensity, isoelectric point, and many others.  
+ 
+We ran DE-STRESS on the AlphaFold structure predictions for all 400 selected designs from round 2 of the competition, both with EGFR (`destress_binder_with_egfr.csv`)  and without (`destress_binder_only.csv`).
+ 
+The full glossary of metrics and descriptions is available [here](https://pragmaticproteindesign.bio.ed.ac.uk/de-stress/glossary). DE-STRESS can be used through [web server](https://pragmaticproteindesign.bio.ed.ac.uk/de-stress/) or through [Command Line Interface (CLI)](https://github.com/wells-wood-research/de-stress). The full paper is available [here](https://academic.oup.com/peds/article/doi/10.1093/protein/gzab029/6462357). 
+
 ## Experimental Workflow
 
 ### DNA Design
