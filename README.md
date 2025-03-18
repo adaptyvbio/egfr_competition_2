@@ -14,10 +14,10 @@ We've performed a neutralisation assay and are now releasing the results. In a n
 
 🔬 Kinetic curves and raw data:
 
-> Binding: [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip)
+> [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip)
 
 🛡️ Neutralisation data:
-> Neutralisation: [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package_neutralisation.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2//package_neutralisation.zip)
+> [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package_neutralisation.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2//package_neutralisation.zip)
 
 🧱 AlphaFold2 Structure predictions (.pdb) for all 400 selected designs:
 
