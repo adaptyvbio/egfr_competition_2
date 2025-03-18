@@ -2,14 +2,9 @@
 
 This repo contains the results data for Round 2 of [EGFR Protein Design Competition](https://foundry.adaptyvbio.com/competition), hosted by Adaptyv Bio in partnership with Polaris and Dimension.
 
-### Update: Community contributions
+### 🆕 Update: Neutralisation data now available 
 
-Due to the great interest, Adaptyv is organizing a consortium of community members to create a post competition writeup, compiling additional data, analyses performed and learnings.
-[Click here to join the effort](https://forms.gle/kagunEmUqpDLQ2hj8)
-
-Contributions so far include
-
-- FoldSeek and DE-STRESS scores, [contributed](https://github.com/adaptyvbio/egfr_competition_2/pull/2/) by the team at https://github.com/wells-wood-research
+We've performed a neutralisation assay and are now releasing the results. In a neutralisation assay, we measure the interaction between the competitor protein (here, human EGF) and the target (EGFR), both alone (as a control) and in the presence of a binder. From this signal, we calculate the neutralisation coefficient, which estimates how effectively the binder prevents the competitor-target interaction. A neutralisation coefficient of 100% means complete inhibition, while a binder with 0% does not hinder the EGF-EGFR interaction at all.
 
 ---
 
@@ -20,6 +15,8 @@ Contributions so far include
 🔬 Kinetic curves and raw data:
 
 > Binding: [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip)
+
+🛡️ Neutralisation data:
 > Neutralisation: [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package_neutralisation.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2//package_neutralisation.zip)
 
 🧱 AlphaFold2 Structure predictions (.pdb) for all 400 selected designs:
@@ -83,6 +80,10 @@ Full details with bash scripts and additional files can be found [here](https://
 We ran DE-STRESS on the AlphaFold structure predictions for all 400 selected designs from round 2 of the competition, both with EGFR (`destress_binder_with_egfr.csv`) and without (`destress_binder_only.csv`).
 
 The full glossary of metrics and descriptions is available [here](https://pragmaticproteindesign.bio.ed.ac.uk/de-stress/glossary). DE-STRESS can be used through [web server](https://pragmaticproteindesign.bio.ed.ac.uk/de-stress/) or through [Command Line Interface (CLI)](https://github.com/wells-wood-research/de-stress). The full paper is available [here](https://academic.oup.com/peds/article/doi/10.1093/protein/gzab029/6462357).
+
+### Neutralisation Coefficient 
+
+In a neutralisation assay, we measure the interaction between the competitor protein (here, human EGF) and the target (EGFR), both alone (as a control) and in the presence of a binder. From this signal, we calculate the neutralisation coefficient, which estimates how effectively the binder prevents the competitor-target interaction. A neutralisation coefficient of 100% means complete inhibition, while a binder with 0% does not hinder the EGF-EGFR interaction at all.
 
 ## Experimental Workflow
 
