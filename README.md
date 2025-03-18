@@ -19,7 +19,8 @@ Contributions so far include
 
 🔬 Kinetic curves and raw data:
 
-> [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip)
+> Binding: [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip)
+> Neutralisation: [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package_neutralisation.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2//package_neutralisation.zip)
 
 🧱 AlphaFold2 Structure predictions (.pdb) for all 400 selected designs:
 
