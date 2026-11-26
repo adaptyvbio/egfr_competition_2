@@ -14,18 +14,18 @@ We've performed a neutralisation assay and are now releasing the results. In a n
 
 🔬 Kinetic curves and raw data:
 
-> [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package.zip)
+> [https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/package.zip](https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/package.zip)
 
 🛡️ Neutralisation data:
-> [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/package_neutralisation.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2//package_neutralisation.zip)
+> [https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/package_neutralisation.zip](https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/package_neutralisation.zip)
 
 🧱 AlphaFold2 Structure predictions (.pdb) for all 400 selected designs:
 
-> [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/structure_predictions.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/structure_predictions.zip)
+> [https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/structure_predictions.zip](https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/structure_predictions.zip)
 
 🌐 Embeddings from a variety of models (ESM C, ESM2, Saprot, Protek) for all submissions:
 
-> [https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/embeddings.zip](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition_2/embeddings.zip)
+> [https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/embeddings.zip](https://adaptyvbio-egfr-design-competition-2.s3.eu-central-1.amazonaws.com/embeddings.zip)
 
 # Methods
 
